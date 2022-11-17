@@ -1,0 +1,12 @@
+stop();
+pizza.text = _root.LocaleText.getText("pizza_chocolatesprinkle");
+topping1.text = _root.LocaleText.getText("topping_sprinkles");
+topping2.text = _root.LocaleText.getText("topping_chocolatesauce");
+_parent.normalsauceREQUESTED = true;
+_parent.hotsauceREQUESTED = false;
+_parent.cheeseREQUESTED = true;
+_parent.topping1REQUESTED = false;
+_parent.topping2REQUESTED = false;
+_parent.topping3REQUESTED = false;
+_parent.topping4REQUESTED = false;
+_global.pizzatron_dl.setPizzaType = "NO TOPPINGS";

@@ -1,0 +1,29 @@
+
+#start, #coins {
+  display: none;
+}
+
+/* Interactive gameplay */
+
+#play {
+  height: fit-content
+}
+
+/* Restaurant background */
+
+#background img {
+  width: 100%;
+}
+
+#background {
+  position: relative;
+}
+
+.doors {
+  position: absolute;
+  top: 0;
+}
+
+.flip {
+  transform: scaleX(-1);
+}
