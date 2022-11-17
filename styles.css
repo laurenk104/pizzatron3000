@@ -6,7 +6,7 @@
 /* Interactive gameplay */
 
 #play {
-  height: fit-content
+  height: fit-content;
 }
 
 /* Restaurant background */
@@ -21,7 +21,14 @@
 
 .doors {
   position: absolute;
+}
+
+/* Order Screen */
+
+#order {
+  position: absolute;
   top: 0;
+  z-index: 1;
 }
 
 .flip {
